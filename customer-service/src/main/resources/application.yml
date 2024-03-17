@@ -1,6 +1,18 @@
 server:
   port: 8080
-
 spring:
   application:
-    name: customer-service
+    name: customer
+  datasource:
+    password: 5168
+#    url: jdbc:postgresql://localhost:5432/customer
+    username: root
+    url: jdbc:mysql://localhost:3306/msdb
+  jpa:
+#    hibernate:
+#      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQl8LDialect
+        format_sql: true
+    show-sql: true
