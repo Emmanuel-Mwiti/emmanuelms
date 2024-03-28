@@ -1,1 +1,6 @@
+com\emmanuel\customer\service\Customer.class
 com\emmanuel\customer\service\CustomerApplication.class
+com\emmanuel\customer\service\CustomerRegistrationRequest.class
+com\emmanuel\customer\service\CustomerService.class
+com\emmanuel\customer\service\CustomerController.class
+com\emmanuel\customer\service\Customer$CustomerBuilder.class
