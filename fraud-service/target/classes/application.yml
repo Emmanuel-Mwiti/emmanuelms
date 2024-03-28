@@ -1,0 +1,20 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: fraud
+  datasource:
+    password: 5168
+    #    url: jdbc:postgresql://localhost:5432/customer
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/fraud
+  jpa:
+    hibernate:
+      #      ddl-auto: create-drop- do not use this in production
+      ddl-auto: update
+    properties:
+      hibernate:
+        #        dialect: org.hibernate.dialect.MySQl8LDialect
+        format_sql: true
+    show-sql: true

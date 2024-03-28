@@ -1,5 +1,5 @@
 server:
-  port: 8087
+  port: 8080
 spring:
   application:
     name: customer
@@ -11,7 +11,7 @@ spring:
     url: jdbc:mysql://localhost:3306/customer
   jpa:
     hibernate:
-#      ddl-auto: create-drop
+#      ddl-auto: create-drop- do not use this in production
       ddl-auto: update
     properties:
       hibernate:

@@ -13,7 +13,6 @@ public record CustomerService(CustomerRepository customerRepository) {
 
         //? todo: check if email is valid
         //? todo: check if email is not taken
-        //? todo: store customer in db
         customerRepository.save(customer);
     }
 }
