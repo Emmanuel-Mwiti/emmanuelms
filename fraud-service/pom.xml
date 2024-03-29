@@ -7,11 +7,12 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>customer-service</artifactId>
+
+    <artifactId>fraud-service</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>customer-service</name>
+    <name>fraud-service</name>
     <url>http://maven.apache.org</url>
 
     <properties>
